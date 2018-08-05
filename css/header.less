@@ -1,0 +1,117 @@
+
+.page-header{
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height:80px;
+	background-color:#000;
+	border-bottom:1px solid #333333;
+	
+	.logo {
+		position:relative;
+		margin:0px;
+		padding:0 0 0 48px;
+		height:80px;
+		width:198px;
+		font-size:30px;
+		/* background-color:#777; */
+		a{
+			vertical-align:middle;
+			line-height:80px;
+			letter-spacing: -1.5px;
+			font-weight:bold;
+			text-decoration:none;
+			color:white;
+		}
+		float:left;
+		&::before{
+			content:"";
+			position:absolute;
+			top:0px;
+			left:-3px;
+			height: 80px;
+			width: 48px;
+			background:url("../img/logo.png") no-repeat center;
+		}
+	}
+	.main-menu{
+		float:left;
+		height:80px;
+		margin:0;
+		padding-left:20px;
+		line-height:80px;
+		vertical-align:middle;
+		ul{
+			margin:0;
+			padding:0px 0 0 24px;
+			list-style:none;
+			font-size:18px;
+			font-weight:bold;
+			li{
+				text-align:center;
+				display:inline-block;
+				box-sizing:border-box;
+				padding:0px 0px 0 0px;
+				width:100px;
+				margin:0;
+				a{
+					letter-spacing: 0.3px;
+					text-decoration:none;
+					color:white;
+					&:hover{
+						color:#ffc000;
+						opacity:0.8;
+					}
+					&:active{
+						opacity: 0.5;
+					}
+				}
+				
+			}
+			#works{
+				text-align:left;
+				padding-left:14px;
+			}
+			#pricing{
+				text-align:left;
+				padding-left:8px;
+			}
+			#more{
+				text-align:left;
+				padding-left:14px;
+			}
+			#services,#blog{
+				padding-left:9px;
+			}
+		}
+	}
+	.btn-call{
+		box-sizing:border-box;
+		float:right;
+		font-size:12px;
+		height:35px;
+		line-height:35px;
+		vertical-align:middle;	
+		border: 2px solid #ffc000;
+		width:120px;
+		margin:22px 5px 0 0;
+		border-radius:40px;
+		text-align:center;
+		font-weight:bold;
+		text-transform:uppercase;
+		a{
+			text-decoration:none;
+			color:white;
+			
+		}
+		&:hover{
+			border-color:#fff;
+			box-shadow: 0 2px 10px rgba(255,255,255,0.5);
+			opacity:0.8;
+		}
+		&:active{
+			box-shadow:inset 0 2px 6px rgba(255,255,255,0.8);
+			opacity: 0.5;
+		}
+	}
+}

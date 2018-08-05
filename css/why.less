@@ -1,0 +1,90 @@
+
+.why-us {
+	margin:0;
+	padding:0;
+	height:765px;
+	width:100%;
+	background-color:#FFF;
+	.why-us-text{
+		margin:0;
+		padding:0;
+		text-align:center;
+		h2 {
+			margin:0;
+			padding: 95px 0 0 7px;
+			font-size: 60px;
+			font-weight: 700;
+			letter-spacing: -3px;
+			word-spacing: 6px;
+		}
+		p {
+			margin-top: 25px;
+			font-size: 18px;
+			padding: 0 330px;
+			line-height: 34px;
+			color:#aaa;
+		}
+	}
+
+	.why-us-container {
+		margin:77px 0 0 0;
+		padding:0;
+		div {
+			position:relative;
+			h2{
+				margin:0;
+				font-size:24px;
+			}
+			p{
+				margin-top:10px;
+				color:#aaa;
+				font-size:14px;
+				word-spacing: 0.7px;
+				line-height: 24px;
+				padding-left:2px;
+			}
+			float:left;
+			width:280px;
+			height:187px;
+			padding:0 20px 0 101px;
+			text-align:left;
+		}
+		div::after {
+			content:"";
+			display:block;
+			position:absolute;
+			top:0px;
+			height: 60px;
+			width: 60px;
+		}
+		div:nth-child(3){
+			padding-right:0px;
+			width:270px;
+		}
+		div:nth-child(6){
+			padding-right:0px;
+			width:270px;
+		}
+		div:nth-child(1)::after{
+			left:19px;
+			background:url("../img/contentIco.png") no-repeat;
+		}
+		div:nth-child(2)::after{
+			left:14px;
+			background:url("../img/mediaIco.png") no-repeat;
+		}div:nth-child(3)::after{
+			left:19px;
+			background:url("../img/digitalIco.png") no-repeat;
+		}div:nth-child(4)::after{
+			left:17px;
+			background:url("../img/creativeIco.png") no-repeat;
+		}div:nth-child(5)::after{
+			left:40px;
+			background:url("../img/BrandIco.png") no-repeat;
+		}div:nth-child(6)::after{
+			left:29px;
+			background:url("../img/publicIco.png") no-repeat;
+		}
+	}
+
+}
