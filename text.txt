@@ -3,3 +3,4 @@ test
 <<<<<<< HEAD
 "new" 
 4
+newbranch
